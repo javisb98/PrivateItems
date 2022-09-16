@@ -1,0 +1,29 @@
+## ADMIN
+
+make_private_message: "This item is now private"
+already_private_message: "This item is already private"
+not_private_message: "This item was not private"
+removed_private_message: "This item is no longer private"
+private_item_owner_message: "This item belongs to %player%"
+private_item_no_owner_message: "This item doesn't have an owner"
+no_item_in_hand: "You don't have any item in your main hand"
+
+
+## PLAYER
+
+# If true, a message will be sent to the player when they get a private item for the first time
+send_attach_item_message: true
+# Message:
+attach_item_message: "This item is now only yours"
+
+# If true, a message will be sent to the player when they pick an own private item
+send_player_attached_item_pick_message: true
+# Message:
+player_attached_item_pick_message: "This item is yours"
+
+# If true, a message will be sent to the player when they pick a private item they doesn't own
+send_player_non_attached_item_pick_message: true
+# Message:
+player_non_attached_item_pick_message: "This item is not yours, the owner is %player%"
+# Cooldown of this message in seconds (when the item is on ground):
+player_non_attached_item_pick_message_cooldown: 5

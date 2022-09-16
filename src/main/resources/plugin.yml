@@ -1,0 +1,28 @@
+name: PrivateItems
+author: javisb98
+description: Make items that are private and only their owner can pick them
+version: '${project.version}'
+main: me.javisb98.privateitems.PrivateItems
+api-version: 1.18
+commands:
+  makeprivate:
+    description: Makes an item private
+  unmakeprivate:
+    description: Makes a private item non-private
+  reload:
+    description: Reloads the config
+  seeowner:
+    description: Displays the private item owner
+permissions:
+  privateitems.makeprivate:
+    description: Makes an item private
+    default: false
+  privateitems.unmakeprivate:
+    description: Makes a private item non-private
+    default: false
+  privateitems.seeowner:
+    description: Displays the private item owner
+    default: false
+  privateitems.ignore:
+    description: The player ignores the plugin when pick a private item
+    default: false
